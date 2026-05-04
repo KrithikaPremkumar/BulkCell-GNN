@@ -1,0 +1,32 @@
+# BulkCell-GNN — Python dependencies for notebooks and bulkcell_gnn*.py
+#
+# --- PyTorch / PyTorch Geometric (read before installing) ---
+# Install a PyTorch wheel that matches your OS and CUDA (or CPU) first:
+#   https://pytorch.org/get-started/locally/
+#
+# torch-geometric must match your *exact* torch and CUDA builds. Do not assume
+# `pip install -r requirements.txt` alone will pick a compatible pair — check:
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# Typical flow: install torch → install pyg_lib / torch_scatter / … from the
+# PyG wheel index if needed → then torch-geometric.
+#
+# Then install the rest of this file, e.g.:
+#   pip install -r requirements.txt
+
+GEOparse>=2.0.0,<3
+numpy>=1.24.0,<3
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+scanpy>=1.9.0
+anndata>=0.9.0,<1
+python-igraph>=0.10.0
+leidenalg>=0.9.0
+torch>=2.1.0,<3
+torch-geometric>=2.4.0
+umap-learn>=0.5.4
+seaborn>=0.13.0
+
+# Optional: SVG → PNG for report-style figure exports (not required for training).
+cairosvg>=2.7.0

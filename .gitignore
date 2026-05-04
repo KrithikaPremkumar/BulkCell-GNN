@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# results/ is intentionally tracked (figures, metrics exports, etc.).
+# data/ is local notebook/cache output — not committed.
+# -----------------------------------------------------------------------------
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Local notebook downloads and large intermediates (not results/)
+data/
