@@ -166,39 +166,7 @@ Install packages **inside the notebooks** (each has `pip install` cells), or mir
 
 ---
 
-## Data citation and acknowledgments
+## Datasets
 
-**GEO series used in this repo**
-
-- **GSE39582** — bulk colorectal cancer expression with CMS / MSI-related molecular subtypes (*Marisa et al., PLoS Med. 2013*).
-- **GSE132465** — single-cell RNA-seq of primary CRC and matched normal (*Lee et al., Nat. Genet. 2020*).
-
-Please cite the **original studies** and the **GEO accession** when reusing these data.
-
-Example BibTeX (adapt to your bibliography style):
-
-```bibtex
-@article{marisa2013gene,
-  title   = {Gene expression classification of colon cancer into molecular subtypes: characterization, validation, and prognostic value},
-  author  = {Marisa, Laetitia and de Reyni{\`e}s, Arnaud and Duval, Alex and others},
-  journal = {PLoS Medicine},
-  volume  = {10},
-  number  = {5},
-  pages   = {e1001453},
-  year    = {2013},
-  doi     = {10.1371/journal.pmed.1001453}
-}
-
-@article{lee2020lineage,
-  title   = {Lineage-dependent gene expression programs influence the immune landscape of colorectal cancer},
-  author  = {Lee, Hee Oh and Hong, Yoon and Etlioglu, Haluk Emre and others},
-  journal = {Nature Genetics},
-  volume  = {52},
-  number  = {6},
-  pages   = {594--603},
-  year    = {2020},
-  doi     = {10.1038/s41588-020-0636-z}
-}
-```
-
-If you use this **code** in academic work, cite or link this repository and acknowledge **The University of Memphis COMP 7740 (Neural Networks)** as the course context if appropriate.
+- **[GSE39582](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39582)** — bulk CRC expression (*Marisa et al., PLoS Med. 2013*).
+- **[GSE132465](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465)** — scRNA-seq of primary CRC and matched normal (*Lee et al., Nat. Genet. 2020*).
