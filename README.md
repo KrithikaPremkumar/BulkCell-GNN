@@ -16,11 +16,11 @@ The model builds bulk–bulk, cell–cell, and bulk–cell edges, then fuses mod
 
 Full-cohort **Experiment 2** validation performance (same data split and hyperparameters across activations; see `04b_model_shilu.ipynb`):
 
-| Model | Val AUC | Best epoch |
-|-------|---------|------------|
-| ShiLU-SwishTanh | **0.9986** | 21 |
-| ReLU | 0.9973 | 10 |
-| GELU | 0.9952 | 6 |
+| Activation | Val AUC |
+|--------------|---------|
+| ShiLU-SwishTanh | **0.9986** |
+| ReLU | 0.9973 |
+| GELU | 0.9952 |
 
 ---
 
